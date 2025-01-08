@@ -1,0 +1,64 @@
+
+@media only screen and (max-width: 1251px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 478px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .firstSection{
+        height: 700px;
+    }
+    .main-box{
+        height: 600px;
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+        justify-content: center;
+    }
+    .buttons{
+       text-align: center;
+    }
+    .contact{
+        background: rgba(0, 0, 0, 0.7) url('4.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: lighten;
+        height: 833px;
+    }
+    .text-big{
+
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .firstHalf{
+        padding-left: 10%;
+    }
+}
